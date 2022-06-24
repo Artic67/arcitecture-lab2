@@ -1,12 +1,13 @@
 // TODO: Rename to your own module.
-module github.com/roman-mazur/architecture-lab-2
+module github.com/Artic67/arcitecture-lab2
 
 go 1.17
 
 // TODO: Change if need to use a different assertions library.
-require github.com/stretchr/testify v1.7.0
+
 
 require (
+	github.com/stretchr/testify v1.7.0
 	github.com/davecgh/go-spew v1.1.0 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
 	github.com/stretchr/objx v0.1.0 // indirect
