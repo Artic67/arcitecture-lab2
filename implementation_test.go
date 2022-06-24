@@ -28,7 +28,7 @@ func TestComputePostfixFailed(t *testing.T) {
 // Function that tests Computing of Postfix expression when compute is successful.
 func TestComputePostfixSuccess(t *testing.T) {
 
-	result, error := ComputePostfix(" 6 4 - 5 * 9 + ")
+	result, error := ComputePostfix(" 7 4 - 5 * 9 + ")
 	if assert.Nil(t, error) {
 		assert.Equal(t, 19.0, result)
 	}
